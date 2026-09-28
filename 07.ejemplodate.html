@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORMULARIO DE FECHA</title>
+        </head>
+        <body>
+            <h1>Formulario de fecha</h1>
+
+            <form action="#" method="get" autocomplete="on"> 
+            <label for="fecha">Selecciona una fecha:</label>
+            <input
+            type="date"
+            id="fecha"
+            name="fecha"
+            value="2026-09-21"
+            min="2000-01-01"
+            max="2030-12-31"
+            step="1"
+            required
+            autocomplete="bday"
+            autofocus
+            form="formulariofecha"
+            >
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        </form>
+        </body>
+    </html>
